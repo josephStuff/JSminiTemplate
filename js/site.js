@@ -4,15 +4,11 @@
 // display message to the user.
 
 function getMessage() {
-
     let userMessage = document.getElementById("message").value;
-
     Swal.fire(
-        
-        title: ;
-        userMessage:   ;
-        console.log(userMessage)
+        'Button clicked!',
+        userMessage,
+        "success"
     );
-
     console.log(userMessage);
 }
