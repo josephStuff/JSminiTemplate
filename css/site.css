@@ -18,6 +18,55 @@ main>.container {
     background-color: var(--jw-secondary-color);
 }
 
+.jsicon {
+    color: #d6cc3a;
+}
+
+.bsicon {
+    color: purple;
+}
+
+.htmlicon {
+    color: rgb(216, 33, 33);
+}
+
+.cssicon {
+    color: blue;
+}
+
+.checklisticon {
+    color: var(--jw-secondary-color);
+}
+
+
+/* --------------------------BUTTON STYLES OVERRIDE BOOTSTRAP STYLES---------------- */
+.btn-outline-primary {
+    color: var(--jw-primary-color);
+    border-color: var(--jw-secondary-color) !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary:focus {
+    border-color: var(--jw-primary-color) !important;
+    background-color: var(--jw-secondary-color);
+}
+
+.btn-primary {
+    color: white !important;
+    background-color: var(--jw-secondary-color);
+    border-color: var(--jw-secondary-color);
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    filter: brightness(1.1) !important;
+    border-color: var(--jw-secondary-color);
+
+}
+
 
 /* --------------------FOOTER STYLE-------------------- */
 .footer {
